@@ -1645,7 +1645,7 @@ h3 {
 
 .rw-words{
 	display: inline;
-	text-indent: 10px;
+	text-indent: 0px;
 }
 
 .rw-words span{
