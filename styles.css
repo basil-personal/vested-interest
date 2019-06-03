@@ -1656,10 +1656,10 @@ h3 {
 }
 
 .rw-words-1 span{
-	animation: rotateWordsFirst 10s linear infinite 0s;
+	animation: leftToRight 10s linear infinite 0s;
 }
 .rw-words-2 span{
-	animation: rotateWordsSecond 8s linear infinite 0s;
+	animation: leftToRight 8s linear infinite 0s;
 }
 .rw-words span:nth-child(2) { 
 	animation-delay: 3s; 
@@ -1669,22 +1669,35 @@ h3 {
 }
 
 }
-
-@keyframes rotateWordsFirst {
-    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 60px; }
-    19% { opacity: 1; height: 60px; }
-	25% { opacity: 0; height: 60px; }
-    100% { opacity: 0; }
+@-moz-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateX(-50px); }
+	10% { opacity: 1; -moz-transform: translateX(0px); }
+	25% { opacity: 1; -moz-transform: translateX(0px); }
+	30% { opacity: 0; -moz-transform: translateX(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateX(-50px); }
+	10% { opacity: 1; -webkit-transform: translateX(0px); }
+	25% { opacity: 1; -webkit-transform: translateX(0px); }
+	30% { opacity: 0; -webkit-transform: translateX(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateX(-50px); }
+	10% { opacity: 1; -ms-transform: translateX(0px); }
+	25% { opacity: 1; -ms-transform: translateX(0px); }
+	30% { opacity: 0; -ms-transform: translateX(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
 }
 
-@keyframes rotateWordsSecond {
-    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
-    10% { opacity: 0.3; width: 0px; }
-	20% { opacity: 1; width: 100%; }
-    27% { opacity: 0; width: 100%; }
-    100% { opacity: 0; }
-}
+
 
 
 .mc-field-group input {
