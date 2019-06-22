@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="27px" viewBox="0 0 227 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="13.3596908" cy="13.6303961" r="13"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-264.000000, -165.000000)">
+            <g id="Group" transform="translate(173.000000, 154.000000)">
+                <text id="vestedinterest" font-family="BrandonText-Bold, Brandon Text" font-size="30" font-weight="bold">
+                    <tspan x="131.115" y="32" fill="#9EADC8">vested</tspan>
+                    <tspan x="217.125" y="32" fill="#031328">interest</tspan>
+                </text>
+                <g id="Rectangle" transform="translate(104.823808, 24.823808) scale(-1, 1) rotate(-24.000000) translate(-104.823808, -24.823808) translate(91.323808, 11.323808)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#031328" xlink:href="#path-1"></use>
+                    <path d="M19.7622406,-0.284728754 C17.1144332,3.59841722 15.9824139,8.57332006 16.4010805,14.7123161 C16.8087657,20.6902892 17.9366646,24.71054 19.611317,26.7476464 L34.9809224,26.752114 L34.9729988,-0.280307324 L19.7622406,-0.284728754 Z" stroke="#FFFFFF" stroke-width="4" fill="#9EADC8" mask="url(#mask-2)" transform="translate(25.648955, 13.233835) rotate(-2.000000) translate(-25.648955, -13.233835) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
